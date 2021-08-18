@@ -32,28 +32,14 @@ body {
   font-family: inherit;
   font-weight: 500;
   border: none;
+  border-radius: 3rem;
   padding: 1.25rem 3rem;
-  border-radius: 25%;
   cursor: pointer;
   transition: all 0.2s;
 }
 
 .btn:hover {
   background-color: var(--color-primary-darker);
-}
-
-.btn--text {
-  display: inline-block;
-  background: none;
-  font-size: 1.4rem;
-  font-family: inhert;
-  font-weight: 500;
-  color: var(--color-primary);
-  border: none;
-  border-bottom: 1px solid currentColor;
-  padding-bottom: 2px;
-  cursor: pointer;
-  transition: all 0.2s;
 }
 
 p {
@@ -105,21 +91,21 @@ p {
   color: #222;
 }
 
-.login__btn {
+.login--btn {
   background-color: var(--color-primary);
 }
 
-.open__btn {
+.create--btn {
   background-color: var(--color-secondary);
 }
 
-.login__btn:hover {
+.login--btn:hover {
   color: inherit;
   background-color: var(--color-primary-darker);
   color: #333;
 }
 
-.open__btn:hover {
+.create--btn:hover {
   color: inherit;
   background-color: var(--color-secondary-darker);
   color: #333;
